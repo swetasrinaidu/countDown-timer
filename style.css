@@ -1,0 +1,32 @@
+body{
+    background-image: url(photo.avif);
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+h1{
+    position: absolute;
+    font-size: 50px;
+    text-align: center;
+    color:black;
+    top:50px;
+    left:550px;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.main{
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width:500px;
+    height: 400px;
+    color:black;
+
+}
